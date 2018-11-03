@@ -1,18 +1,14 @@
 html {
   background-color: rgb(255, 255, 255);
-  margin: 0 auto;
+  margin: 0px;
   padding: 0px;
   font-family: 'Roboto Condensed', sans-serif;
 }
 body {
-  width: 100%;
   margin: 0 auto;
 }
 a{
   color:  #0b2a1b;
-}
-a:hover{
-  color: #039e72;
 }
 ol{
   margin: 0px;
@@ -30,51 +26,48 @@ ul>ul{
 
 .contenedor {
   overflow-y: hidden;
+  padding: 4%
 }
 .menu-navegacion {
+  margin-top: -4%;
   position: relative;
-  top: 0px;
-  left: 0px;
+  height: 53px;
   width: auto;
-  height: 48px;
 }
-.menu-navegacion ul {
+.menu-navegacion nav {
   list-style-type: none;
   text-align: center;
   margin: 0px;
-  height: 48px;
   background-color: rgb(255, 255, 255);
 }
-.menu-navegacion ul li {
-  display: inline-block;
-}
-.menu-navegacion ul li a {
-  text-decoration: none;
-}
-.cuerpo-principal {
+
+.cuerpo-principal,.cuerpo-principal-cuento {
   background-color: #ebece7;
   color: #06392a;
-  width: 1200px;
-  height: 520px;
-  margin: 0px auto 5px auto;
+  padding: 2%;
+  height: 485px;
   overflow-y: scroll;
   text-align: center;
-  padding: 20px 30px 20px 30px;
+}
+.cuerpo-principal-cuento {
+  overflow-y: hidden;
 }
 .cabezal-parrafo>ul>li{
   font-weight: bold;
 }
 .separator{
-width: 200px;
-margin-top: 0px;
-margin-bottom: 0px;
-opacity: 0.3;
+  width: 200px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  opacity: 0.3;
 }
 .btn{
+  text-decoration: none;
   display: inline-block;
   padding: 15px 20px 15px 20px;
 }
 .btn:hover{
+  color: #039e72;
   transition:all .1s ease;
   border-bottom: 4px solid  #06392a;
 }
@@ -109,33 +102,25 @@ opacity: 0.3;
 }
 .cuento{
   text-align: justify;
-  margin-top: 0px;
-  width: 800px;
-  height: 560px;
+  margin: -2% -2% -2% 0%;
+  width: 68%;
+  padding: 0% 2% 2% 2%;
+  height: 510px;
   float: right;
   overflow-y: scroll;
-  padding-right: 20px; 
 }
 .info-dere{
+  margin: -2% 0% -2% -2%;
+  padding: 1%;
   float: left;
-  margin-top: 25px;
-  margin-left: 20px;
   font-family: 'Quintessential', cursive;
-  width: 400px;
+  width: 30%;
+  height: 490px;
 }
 .glosario{
   float: left;
 }
-.cuerpo-principal-cuento {
-  background-color: #ebece7;
-  color: #06392a;
-  width: 1260px;
-  height: 560px;
-  margin: 0px auto 5px auto;
-  text-align: center;
-  padding: 0px 0px 0px 0px;
-  overflow-y: hidden;
-}
+
 
 .menu-interno {
   font-family: 'Roboto Condensed', sans-serif;
@@ -159,6 +144,7 @@ opacity: 0.3;
 .btn-interno:hover{
   transition:all .2s ease;
   border-right: 4px solid  #06392a;
+  color: #039e72;
 }
 
 
@@ -197,7 +183,7 @@ opacity: 0.3;
 }
 #h1-central2{
   text-align: center;
-  font-size: 43px;
+  font-size: 35px;
   margin-top: 15px;
   margin-bottom: 10px;
   
@@ -205,7 +191,7 @@ opacity: 0.3;
 #titulo-cuento{
   text-align: center;
   font-size: 30px;
-  margin-top: 20px;
+  margin-top: 2%;
   margin-bottom: 0px;
   border-bottom: 2px solid  #06392a;
 }
