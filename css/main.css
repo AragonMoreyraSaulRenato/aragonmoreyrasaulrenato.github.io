@@ -109,9 +109,9 @@ ul > ul {
 .cuento {
 	text-align: justify;
 	margin: -2% -2% -2% 0%;
-	width: 100%;
+	width: 68%;
 	padding: 0% 2% 2% 2%;
-	height: 510px;
+	height: 100%;
 	float: right;
 	overflow-y: scroll;
 }
